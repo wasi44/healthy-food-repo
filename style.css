@@ -8,7 +8,7 @@ body {
     color: red;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin: 100px;
 }

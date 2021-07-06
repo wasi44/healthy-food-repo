@@ -34,7 +34,27 @@ body {
 }
 
 .about-me {
-    background-image: url(images/healthy.jpg);
+    background-image: url(images/back.jpg);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.top-banner {
+    background-image: url(images/breakfast.jpg);
+    background-position: left;
+}
+
+.my-recipes {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.my-recipes img {
+    width: 80%;
+    border-radius: 20px;
 }
